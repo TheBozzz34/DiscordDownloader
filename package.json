@@ -20,11 +20,16 @@
   "homepage": "https://github.com/TheBozzz34/DiscordDownloader#readme",
   "dependencies": {
     "@discordjs/rest": "^0.5.0",
+    "axios": "^0.27.2",
     "bufferutil": "^4.0.6",
     "discord-api-types": "^0.36.0",
     "discord.js": "^13.8.1",
+    "dropbox-v2-api": "^2.5.3",
     "erlpack": "github:discord/erlpack",
+    "file-sizeof": "^1.1.0",
+    "sizeof": "^1.0.0",
     "utf-8-validate": "^5.0.9",
+    "yt-dlp-wrap": "^2.3.11",
     "zlib-sync": "^0.1.7"
   },
   "devDependencies": {

@@ -4,7 +4,11 @@ const { TOKEN, CLIENT_ID } = require('./config.json');
 const commands = [
 	{
 		name: 'ping',
-		description: 'Returns pong',
+		description: 'Replies with "Pong!"',
+	},
+	{
+		name: 'getlink',
+		description: 'Gets the dropbox link to the latest video',
 	},
 ];
 
